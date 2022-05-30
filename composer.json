@@ -1,0 +1,14 @@
+{
+    "name": "greensight/lab1",
+    "type": "project",
+    "description": "Лабораторная работа 1 от Гринсайта",
+    "require": {
+        "monolog/monolog": ">2.0",
+        "symfony/validator": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
